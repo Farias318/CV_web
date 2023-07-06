@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mi CV</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="qrcode.js"></script>
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand mx-auto" href="#">Mi CV Web</a>
+    </nav>
+    <div class="container mt-4">
+      <h2>Sobre Mí</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempor
+        mollis magna, non feugiat mi commodo sed. Vestibulum at lorem sed metus
+        tristique tincidunt eu ut est. Mauris feugiat leo vitae ligula consequat
+        cursus.
+      </p>
+      <button id="pdfButton" class="btn btn-success">Cargar CV en PDF</button>
+      <div id="contenedorQR" class="contenedorQR"></div>
+      <img src="Mister-Popo-Dragon-Ball.jpg" alt="">
+    </div>
+
+
+    <footer class="footer bg-dark text-white text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h3>Contactos</h3>
+            <p>Teléfono: 123456789</p>
+            <p>Email: ejemplo@example.com</p>
+          </div>
+          <div class="col-lg-6">
+            <h3>Mis Redes</h3>
+            <a href="https://www.facebook.com/ejemplo" target="" class="btn btn-primary me-2">Facebook</a>
+            <a href="https://www.twitter.com/ejemplo" target="" class="btn btn-primary me-2">Twitter</a>
+            <a href="https://www.instagram.com/ejemplo" target="" class="btn btn-primary">Instagram</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"
+    ></script>
+    <script src="app.js"></script>
+    
+  </body>
+</html>

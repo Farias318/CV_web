@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  #pdfButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #qrScanner {
+    margin-top: 20px;
+  }
+  
+  .footer {
+    flex-shrink: 0;
+    
+  }
+  
+
+  img{
+    width: 250px;
+    height: 250px;
+    margin: 40px;
+  }
